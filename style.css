@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+/* sfondo trasparente per i contenuti */
+.container{
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+img{
+  width: 200px;
+  display: block;
+  padding-top: 5%;
+  margin: auto;
+}
+
+h1{
+  font-size: 25px;
+  text-align: center;
+  color: #00ff00;
+}
+
+/* così che ciascun elemento di nav e main abbia già i margini desiderati */
+nav, main{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav{
+  margin-top: 5px;
+  background-color: #00ff00
+}
+
+.pulsanti{
+  padding: 5px;
+  text-align: center;
+}
+
+.gino22, .mike24, .fede154{
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.monopattino > span{
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.posizione{
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+/* freccetta */
+.posizione:before{
+ content: "\21A6";
+ font-size: 15px;
+}
+
+.carica > p{
+font-size: 10px;
+font-family: sans-serif;
+}
+
+/* barre di ricarica */
+#indicatoregino22{
+  width: 25%;
+  height: 20px;
+  background-color: #F4A460;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#indicatoremike24{
+  margin-top: 5px;
+  width: 60%;
+  height: 20px;
+  background-color: #00ff00;
+  border-radius: 5px;
+}
+
+#indicatorefede154{
+  margin-top: 5px;
+  width: 15%;
+  height: 20px;
+  background-color: rgba(255, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+main{
+  padding-bottom: 10%;
+}
